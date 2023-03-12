@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tyler Geerdts Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/afef3d6e6c.js"></script>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+</head>
+<body>
+
+ 
+<div id="home" class="container-fluid">
+  <div id="name">
+  <h1 id="myName">TYLER GEERDTS</h1>
+  <h2 id="myTitle">WEB DEVELOPER</h2>
+  </div>
+</div>
+    <nav id = "myNav" class = "navbar navbar-inverse navbar-fixed-bottom">
+      <div class = "container-fluid" id="myNav">
+        <ul class = "nav navbar-nav">
+          <li><a href = "#aboutSection" id="about">ABOUT</a></li>
+          <li><a href = "#projectsSection" id="projects">PORTFOLIO</a></li>
+          <li><a href = "#contactSection" id="contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+ <div id="aboutSection" class="container-fluid content">
+    <h2 id="infoHeader">Hey there!  I&#8217;m <b>Tyler</b>, a <b>full-stack web developer</b> based in the tri-state area.</h2>
+    <p id="myInfo">My passion for programming spans from <b>front-end user experience</b> to <b>back-end database design</b> and everything in between.<br/><br/>I'm a <b>problem solver</b> and <b>analytical thinker</b>, and I'm looking to utilize my skills in the next chapter of my career.</p>
+    <div id="skillsSection">
+      <h2 class="sectionHeader">SKILLS</h2>
+      <div id="iconRow1">
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <i class="devicon-mysql-plain-wordmark colored"></i>
+        <i class="devicon-jquery-plain-wordmark colored"></i>
+      </div>
+      
+      <div id="iconRow2">
+        <i class="devicon-nodejs-plain-wordmark"></i>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-git-plain-wordmark colored"></i>
+        <i class="devicon-heroku-plain-wordmark colored"></i>
+        <i class="devicon-trello-plain-wordmark colored"></i>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="projectsSection" class="container-fluid">
+    <h2 class="sectionHeader">MY PROJECTS</h2>
+
+    <div class="row projectRow">
+      <div class = "col-sm-6 col-md-6 project">
+        <div class = "img-thumb img-center projectPreview">
+          <img class = "img-responsive img-center screenshot" src = "./images/trackshare.png">
+          <div class = "img-caption">
+            <h3 class = "text-center projectTitle">TRACK SHARE</h3>
+            <span class="projectSummary">Full stack application built with Node, Express, MySQL, and Handlebars that lets users upload, play, save and comment on Spotify playlists.</span>
+            <div class = "links">
+              <a href = "https://github.com/tygee713/SpotifyForum" target = "_blank">Github</a> | <a href="https://trackshareproject.herokuapp.com/" target = "_blank">Heroku</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class = "col-sm-6 col-md-6 project">
+        <div class = "img-thumb img-center projectPreview">
+          <img class = "img-responsive img-center screenshot" src = "./images/burger.jpg">
+          <div class = "img-caption">
+            <h3 class = "text-center projectTitle">EAT THE BURGER</h3>
+            <span class="projectSummary">Node app that uses Express, Handlebars, and Sequelize to add and edit burgers stored in a database.</span>
+            <div class = "links">
+              <a href = "https://github.com/tygee713/Burger" target = "_blank">Github</a> | <a href="https://pacific-savannah-79965.herokuapp.com/index" target = "_blank">Heroku</a>
+            </div>
+          </div>
+
+        </div>
+      </div>    -->
+
+      <div class = "col-sm-6 col-md-6 project">
+        <div class = "img-thumb img-center projectPreview">
+          <img class = "img-responsive img-center screenshot" src = "./images/travelize.png">
+          <div class = "img-caption">
+            <h3 class = "text-center projectTitle">TRAVELIZE</h3>
+            <span class="projectSummary">Web application that aggregates travel information for the user's destination and time of year from multiple APIs.</span>
+            <div class = "links">
+              <a href = "https://github.com/tygee713/Travelize" target = "_blank">Github</a> | <a href="https://floating-lake-75033.herokuapp.com/" target = "_blank">Heroku</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row projectRow">
+
+      <div class = "col-sm-6 col-md-6 project">
+        <div class = "img-thumb img-center projectPreview">
+          <img class = "img-responsive img-center screenshot" src = "./images/streetfighter.png">
+          <div class = "img-caption">
+            <h3 class = "text-center projectTitle">STREET FIGHTER RPG</h3>
+            <span class="projectSummary">Browser RPG game using Javascript opjects and JQuery to dynamically populate page elements.</span>
+            <div class = "links">
+                <a href = "https://github.com/tygee713/JQuery-RPG" target = "_blank">Github</a> | <a href="https://streetfighter-rpg.herokuapp.com" target = "_blank">Heroku</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "col-sm-6 col-md-6 project">
+        <div class = "img-thumb img-center projectPreview">
+          <img class = "img-responsive img-center screenshot" src = "./images/rockpaperscissors.png">
+          <div class = "img-caption">
+            <h3 class = "text-center projectTitle">ROCK PAPER SCISSORS</h3>
+            <span class="projectSummary">Online multiplayer game of rock paper scissors created using Firebase and featuring chat functionality.</span>
+            <div class = "links">
+                <a href = "https://github.com/tygee713/Rock-Paper-Scissors" target = "_blank">Github</a> | <a href="https://rock-paper-scissors-online.herokuapp.com/" target = "_blank">Heroku</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="contactSection" class="container-fluid content">
+    <h2 class="sectionHeader">CONTACT ME</h2>
+    <p id="myContact">Email me at <a href="mailto:tygee713@gmail.com">tygee713@gmail.com</a>, or reach out at any of the below:</p>
+    <div id = "contactIcons">
+      <a href="https://github.com/tygee713"><i class="fa fa-github fa-5x fa-border"></i></a>
+      <a href="https://www.linkedin.com/in/tyler-geerdts-240bb194"><i class="fa fa-linkedin-square fa-5x fa-border"></i></a>
+      <a href="https://twitter.com/tgeerdts"><i class="fa fa-twitter fa-5x fa-border"></i></a>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./javascripts/main.js"></script>
+</body>
+</html>
